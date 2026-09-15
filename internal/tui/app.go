@@ -23,9 +23,9 @@ type RootWindow struct {
 
 func NewRootWindow() RootWindow {
 	return RootWindow{activePage: 0, pages: []Page{
-		{id: 1, title: "Тесты элементов"},
-		{id: 2, title: "Тесты команд"},
-		{id: 3, title: "Много активных элементов"},
+		{id: 1, title: "Тест"},
+		{id: 2, title: "Теcт"},
+		{id: 3, title: "Тест"},
 	}}
 }
 
